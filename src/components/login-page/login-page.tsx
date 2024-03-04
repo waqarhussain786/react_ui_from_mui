@@ -16,7 +16,7 @@ import Stack from '@mui/joy/Stack';
 import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import BadgeRoundedIcon from '@mui/icons-material/BadgeRounded';
-import GoogleIcon from './GoogleIcon';
+// import GoogleIcon from './GoogleIcon';
 
 interface FormElements extends HTMLFormControlsCollection {
   email: HTMLInputElement;
@@ -157,7 +157,7 @@ export default function JoySignInSideTemplate() {
                 variant="soft"
                 color="neutral"
                 fullWidth
-              startDecorator={<GoogleIcon />}
+              // startDecorator={<GoogleIcon />}
               >
                 Continue with Google
               </Button>
