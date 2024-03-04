@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react';
-import Button from "@mui/material/Button"
+// import ResponsiveAppBar from './components/top-bar/top_bar';
+import JoySignInSideTemplate from './components/login-page/login-page.tsx';
 
 function App() {
   return (
     <div className="App">
-      <Button variant = "contained">Hello</Button>
+      <JoySignInSideTemplate />
     </div>
   );
 }
