@@ -1,12 +1,11 @@
 import './App.css';
 import React from 'react';
-// import ResponsiveAppBar from './components/top-bar/top_bar';
-import JoySignInSideTemplate from './components/login-page/login-page.tsx';
+import Todolist from './components/todo_list/Todo_list.jsx';
 
 function App() {
   return (
     <div className="App">
-      <JoySignInSideTemplate />
+      <Todolist />
     </div>
   );
 }
