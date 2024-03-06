@@ -1,16 +1,7 @@
 .container {
-    height: 100vh;
-    background-color: rebeccapurple;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.list_data{
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-}
-li{
-    list-style: none;
-}
+
